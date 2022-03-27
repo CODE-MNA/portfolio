@@ -1,0 +1,12 @@
+.contactDiv{
+    background-color:var(--dark);
+    color: var(--light);
+    grid: "contact";
+    grid-row:4/5;
+    grid-column:1/5;
+
+}
+
+.mailIcon{
+    width:1.2em;
+}
