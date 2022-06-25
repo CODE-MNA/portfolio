@@ -15,7 +15,7 @@ class InfoProject{
 //Proper links
 let projectArray = [
     new InfoProject("DNA Linker","A game I made for GMTK 2020 using C# and Unity 3D game engine","projects/dnalinker.png","https://im-na.itch.io/dna-linker",""),
-    new InfoProject("Django Website","Website I made using bootstrap and python django","projects/django-web.png","https://codemna.pythonanywhere.com/","https://github.com/CODE-MNA/Django-Website"),
+    new InfoProject("Book Finder","A project I made using React functional components and Google books api for searching books","projects/bookfinder.png","https://code-mna.github.io/bookfinder/","https://github.com/CODE-MNA/bookfinder"),
     new InfoProject("Webcaller","A project where I used WebRTC library to establish a web call. I used Firestore as a signaling server.","projects/web-call.png","https://webcall-mna.web.app/","https://github.com/CODE-MNA/webcall")
 ];
 
