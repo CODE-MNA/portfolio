@@ -9,8 +9,24 @@
 
 .githubIcon {
     cursor: pointer;
-    color: #fff;
+    text-decoration: none;
+    padding-top: 40px;
+    background-color: var(--light);
+
+   
 }
+
+.githubIcon:hover
+{
+  background-color: rgb(195, 164, 71);
+  
+  transform: scale(1.1);
+}
+.githubIcon>object{
+    cursor:pointer;
+}
+
+
 .mailIcon{
     width:1.2em;
 }
