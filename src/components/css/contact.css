@@ -7,6 +7,10 @@
 
 }
 
+.githubIcon {
+    cursor: pointer;
+    color: #fff;
+}
 .mailIcon{
     width:1.2em;
 }

@@ -10,9 +10,7 @@ export default class Contact extends Component {
         }
         return (
             <div  className="contactDiv pad">
-            <h3>Contact Me</h3>
-            <p>Feel free to email me at this address</p>
-            <p >  <img className="mailIcon" src="mailLogo.svg"/>  Mahmed9174@conestogac.on.ca</p> 
+            <h3>Links</h3>
             <i class="fa-brands fa-github-square"></i>
             <object onClick={goToGithub} type="image/svg+xml" data="github.svg" width="50" height="50" alt="Fail"></object>
            </div>
