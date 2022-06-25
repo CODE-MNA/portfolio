@@ -12,7 +12,7 @@ export default class Skills extends Component {
         return (
             <div className="skillsDiv">
             <h1>Skills</h1>
-                <li className={listClass} ><Skill logosrc="jsLogo.svg" desc="Javascript" /> <Skill logosrc="nodeJSLogo.svg" desc="Node JS"/></li>
+                <li className={listClass} ><Skill logosrc="jsLogo.svg" desc="Javascript" /> <Skill logosrc="expressLogo.svg" desc="Express (nodeJS)"/></li>
                 <li className={listClass}><Skill logosrc="pyLogo.svg" desc="Python"/> <Skill logosrc="reactLogo.svg"  desc="React (JS)"/> </li>
                 <li className={listClass}><Skill logosrc="cHashLogo.svg" desc="C# (.NET)"/> <Skill logosrc="unityLogo.svg" desc="Unity 3D (C#)" /></li>
                 <center>Hover to see technologies' name</center><br/>
