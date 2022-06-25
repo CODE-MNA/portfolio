@@ -22,8 +22,8 @@
   
   transform: scale(1.1);
 }
-.githubIcon>object>svg .githubIcon>object{
-    cursor:pointer;
+.githubIcon>object{
+    pointer-events: none;
 }
 
 
