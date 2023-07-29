@@ -444,6 +444,16 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     align-items: center;
 }
+.project__row{
+    display: flex;
+    align-items: start;
+    gap:3em;
+    margin-bottom: 4em;
+}
+.project__row >.project__text{
+    flex-grow: 1;
+    
+}
 
 @media(max-width: 900px) {
     .project__box {
@@ -455,6 +465,8 @@ body:not(.user-is-tabbing) a:focus {
 .project__box:not(:last-child) {
     margin-bottom: 25rem;
 }
+
+
 
 @media(max-width: 500px) {
     .project__box:not(:last-child) {
